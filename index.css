@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(33, 33, 33);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: -65px;
+  left: 20px;
+}
+
+.logo img {
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+main {
+  max-width: 1800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: black;
+  box-shadow: 5px 5px 5px 5px rgba(64, 0, 59, 0.419);
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #800080;
+}
