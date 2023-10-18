@@ -11,39 +11,38 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 1%;
   position: relative;
 }
 
 .logo {
   position: absolute;
-  top: -65px;
-  left: 20px;
+  left: 1.5%;
 }
 
 .logo img {
-  width: 200px;
-  height: 200px;
+  width: 25%;
+  height: 30%;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 160%;
   margin: 0;
 }
 
 main {
-  max-width: 1800px;
-  margin: 20px auto;
-  padding: 20px;
+  max-width: 95%;
+  margin: 1% auto;
+  padding: 1%;
   background-color: black;
   box-shadow: 5px 5px 5px 5px rgba(64, 0, 59, 0.419);
 }
 
 section {
-  margin-bottom: 20px;
+  margin-bottom: 1%;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 160%;
   color: #800080;
 }
