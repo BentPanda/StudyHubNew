@@ -13,6 +13,7 @@
         <img src="logo.png" alt="StudyHub Logo" />
       </div>
       <h1>Witaj w StudyHub</h1>
+      <p id="userStatus"></p>
     </header>
     <main>
       <section>
@@ -27,6 +28,14 @@
         <!-- Tutaj możesz umieścić kategorie i linki do nich -->
       </section>
     </main>
-    <script src="script.js"></script>
+    <form id="loginForm" style="display: none">
+      <input type="email" id="email" placeholder="E-mail" />
+      <input type="password" id="password" placeholder="Hasło" />
+      <button type="button" onclick="login()">Zaloguj się</button>
+    </form>
+    <button id="logoutButton" style="display: none" onclick="logout()">
+      Wyloguj się
+    </button>
+    <script src="index.js"></script>
   </body>
 </html>
