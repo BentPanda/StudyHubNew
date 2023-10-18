@@ -4,6 +4,10 @@ body {
   margin: 0;
   padding: 0;
 }
+#visitCount {
+  font-size: 14px; /* Rozmiar tekstu "Stronę odwiedziło" */
+  margin: 10px; /* Margines wokół tekstu */
+}
 
 header {
   background-color: black;
